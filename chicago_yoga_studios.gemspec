@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Wraps Chicago business license API with only yoga studios.}
   spec.description   = %q{Wraps Chicago business license API with only yoga studios. See more at https://data.cityofchicago.org/resource/uupf-x98q.json?$q=yoga}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/ninaleung/chicago_yoga_studios"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
