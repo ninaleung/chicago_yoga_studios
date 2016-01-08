@@ -1,6 +1,6 @@
 # ChicagoYogaStudios
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/chicago_yoga_studios`. To experiment with that code, run `bin/console` for an interactive prompt.
+A Ruby wrapper for Chicago Business License Data, for yoga related businesses.
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get all Chicago yoga related businesses, use this command:
+
+```ruby
+studios = ChicagoYogaStudios::Business.all
+```
+
+To get data based on a search:
+
+```ruby
+studios = ChicagoYogaStudios::Business.find("moksha")
+
+Replace "moksha" with you own search term.
 
 ## Development
 
