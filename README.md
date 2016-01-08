@@ -30,6 +30,7 @@ To get data based on a search:
 
 ```ruby
 studios = ChicagoYogaStudios::Business.find("moksha")
+```
 
 Replace "moksha" with you own search term.
 
